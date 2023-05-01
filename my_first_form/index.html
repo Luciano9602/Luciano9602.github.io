@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Add User Form</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <form method="post">
+    <fieldset>
+      <legend>Add User</legend>
+      <input type="text" name="firstname" id="firstName" placeholder="Enter First Name...">
+      <br>
+      <input type="text" name="lastname" id="lastName" placeholder="Enter First Last Name...">
+      <br>
+      <input type="email" name="email" id="email" placeholder="example@gmail.com">
+      <br>
+      <label for="status">Status</label>
+      <select id="status" name="status">
+        <option>Student</option>
+        <option>Teacher</option>
+        <option>Guest</option>
+      </select>
+      <br>
+      <p>Choose your favorite programming language</p>
+      <label for="html">HTML</label>
+      <input type="radio" name="html" id="html">
+      <br>
+      <label for="css">CSS</label>
+      <input type="radio" name="css" id="css">
+      <br>
+      <label for="html">JavaScript</label>
+      <input type="radio" name="javascript" id="javascript">
+      <br>
+      <label for="comments">Comments</label>
+      <textarea id="comments" name="comments"></textarea>
+      <br>
+      <label for="currentDate">Current Date</label>
+      <input type="date" name="currentDate" id="currentDate">    
+    </fieldset>
+  </form>
+  <script src="script.js"></script>
+
+  </script>
+</body>
+
+</html>
