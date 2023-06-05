@@ -1,0 +1,229 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  color: #666;
+  display: block;
+  margin: 0px;
+  font-family: 'Caveat', cursive;
+  font-size: 20px;
+}
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  /* background-color: #333; */
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation */
+.topnav a {
+  color: #666;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  text-align: center;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  color: #666;
+  background: white;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #ffffff;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 10px;
+}
+
+.about {
+  text-align: center;
+  padding: 50px 50px;
+  display: block;
+}
+
+.image-container {
+  margin: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.homepage {
+  width: 100%;
+}
+
+.footer {
+  color: #666;
+  padding: 60px 60px;
+  text-align: center;
+}
+
+footer .fa {
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+.meals h3,
+.breakfast h2 {
+  margin-bottom: 2px;
+}
+
+.meals p,
+.breakfast p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.menu,
+.cafe-details {
+  display: flex;
+  flex-direction: row;
+}
+
+.map,
+.address-details {
+  width: 50%;
+}
+
+.map {
+  padding: 20px;
+}
+
+.breakfast {
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+  width: 50%;
+
+}
+
+.price {
+  font-weight: 100;
+}
+
+.logo-img {
+  height: 50px;
+  width: 100px;
+  z-index: -1;
+  position: fixed;
+}
+
+.line {
+  height: 1px;
+  width: 80%;
+  background: #9cada2;
+  margin: 40px auto 0px auto;
+}
+
+.menu-heading {
+  text-align: center;
+  background-color: #ced9d5;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.address-details {
+  text-align: right;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+iframe {
+  margin: auto;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.times {
+  margin-top: 16px;
+}
+
+.fa-twitter,
+.fa-facebook,
+.fa-instagram,
+.fa-spotify {
+  padding-top: 50px;
+  margin-bottom: 0px;
+}
+
+.form-inputs {
+  width: 43%;
+  padding-top: 20px;
+  padding-bottom: 2px;
+  margin: 20px;
+  font-family: 'Caveat', cursive;
+}
+
+.message {
+  width: 100%;
+  height: 250px;
+  margin: 20px 0px 20px 0px;
+  font-family: 'Caveat', cursive;
+}
+
+.form {
+  height: 100vh;
+}
+
+.footer a {
+  color: inherit;
+}
+/* #9cada2 */
+
+@media only screen and (max-width: 500px) {
+
+  .menu,
+  .cafe-details {
+    display: flex;
+    flex-direction: none;
+    justify-content: center;
+  }
+
+  .map {
+    width: 100%;
+    height: 250px;
+    padding: 40px 10px;
+  }
+
+  .address-details {
+    width: 100%;
+    padding-right: 20px;
+  }
+
+  .breakfast {
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .form-inputs {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+}

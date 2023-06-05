@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>tashas</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <img src="logo.jpg" class="logo-img">
+    <!-- navigation menu -->
+    <div class="topnav">
+      <h1 href="#home" class="active">tashas<sup style="font-size: 15px;">&#174;</sup></h1>
+      <div id="myLinks">
+        <a href="index.html">home</a>
+        <a href="menu.html">the classic menu</a>
+        <a href="locations.html">locations</a>
+        <a href="contact.html">contact</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <!-- contact form -->
+    <div class="form">
+      <form method="post">
+        <fieldset>
+          <legend>Contact Us</legend>
+          <div class="all-inputs">
+            <div class="input-div1">
+              <input class="form-inputs" type="text" name="firstname" id="firstName" placeholder="Enter First Name...">
+              <input class="form-inputs" type="text" name="lastname" id="lastName"
+                placeholder="Enter First Last Name...">
+            </div>
+            <div class="input-div2">
+              <input class="form-inputs" type="email" name="email" id="email" placeholder="Example@gmail.com">
+              <select class="form-inputs" id="status" name="status">
+                <option>Subject</option>
+                <option>Franchising</option>
+                <option>Careers</option>
+                <option>Marketing & PR</option>
+                <option>Supplies</option>
+                <option>General Enquiries</option>
+              </select>
+            </div>
+          </div>
+          <div class="textarea-div">
+            <textarea class="message" placeholder="message" id="comments" name="comments"></textarea>
+          </div>
+
+        </fieldset>
+      </form>
+
+    </div>
+    <!-- footer Section -->
+    <footer class="footer">
+      <div class="line"></div>
+      <a  href="https://twitter.com/tashascafe/"><i  class="fa fa-twitter"></i></a>
+      <a href="https://www.facebook.com/tashascafe1"><i class="fa fa-facebook"></i></a>
+      <a  href="https://www.instagram.com/tashascafe/"><i  class="fa fa-instagram"></i></a>
+      <a href="https://open.spotify.com/playlist/5GaDkKT13peMlUi7bgAudj?si=HG1epCrfT0ieChzgM5WKXg&nd=1"><i  class="fa fa-spotify"></i></a>
+    </footer>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
